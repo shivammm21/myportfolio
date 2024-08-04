@@ -297,6 +297,19 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+
+}
+
+.video-img {
+  border-radius: 2rem;
+}
+
+@media (max-width: 768px) {
+  .video-img {
+    border-radius: 2rem; /* Adjust as needed for mobile */
+    width: 100%; /* Ensure it fits within the container */
+    height: auto; /* Maintain aspect ratio */
+  }
 }
 
 .arrow {
