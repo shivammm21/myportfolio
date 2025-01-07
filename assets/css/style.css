@@ -1092,10 +1092,11 @@ main {
 .blog-post-item > a {
   position: relative;
   background: var(--border-gradient-onyx);
-  height: 60%;
+  height: 100%;
   box-shadow: var(--shadow-4);
   border-radius: 16px;
   z-index: 1;
+  display: block;
 }
 
 .blog-post-item > a::before {
@@ -1127,6 +1128,7 @@ main {
 
 .blog-content {
   padding: 15px;
+  padding-bottom: 20px;
 }
 
 .blog-meta {
